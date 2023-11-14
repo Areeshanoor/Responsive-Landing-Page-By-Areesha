@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Responsive Landing Page </title>
+</head>
+<body>
+    <header>
+        <h1>Areesha Fatima</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li class="active">Home</li>
+                <li >Products</li>
+                <li>About me</li>
+                <li>Contact me</li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>    
+
+    <section class="main">
+
+            <section class="left">
+                
+                <p class="title"><span style="color:#FF0000">G</span>
+                    <span style="color:#66CC66">r</span>
+                    <span style="color:#7066ff">a</span>
+                    <span style="color:#FFCCCC">p</span>
+                    <span style="color:#FF0066">h</span>
+                    <span style="color:#FF0000">i</span>
+                    <span style="color:#66CC66">c</span>
+                    <br>
+                    <span style="color:#7566ff">D</span>
+                    <span style="color:#72071a">e</span>
+                    <span style="color:#FF0066">s</span>
+                    <span style="color:#FF0000">i</span>
+                    <span style="color:#66CC66">g</span>
+                    <span style="color:#66ff73">n</span>
+                    <span style="color:#FF0000">i</span>
+                    <span style="color:#3e7470">n</span>
+                    <span style="color:#FF0066">g</span>
+                
+                </p>
+                <p class="msg">Hi ! I'am Areesha Fatima a verstile graphic designer and front-end developer.
+                    <br>
+                    Skills:
+                  
+                    <br>
+                    •Professional Logo Designer
+                    <br>
+                    •Crafting Visual and Digital Excellence
+                    <br>
+                    •Visual Storyteller
+                    <br>
+                    •Designing Web Dreams</p>
+                <button class="cta">Learn More</button>
+            </section>
+
+            <section class="right">
+                <img src="img.svg" alt="Landing Image">
+            </section>
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('opened')
+        })
+
+    </script>
+
+</body>
+</html>
