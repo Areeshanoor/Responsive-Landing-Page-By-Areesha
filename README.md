@@ -13,4 +13,4 @@ HTML: The landing page structure is built using HTML5, which provides semantic m
 
 CSS: Cascading Style Sheets (CSS3) is used to style the landing page, including layout, typography, colors, and animations.
 
-JavaScript: JavaScript is used to add interactivity and dynamic functionality to the landing page, such as smooth scrolling, form validation, and interactive elements.
+
